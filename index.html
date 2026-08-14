@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matt Barnes — Selected work</title>
+<meta name="description" content="Selected work from Matt Barnes: CTO at Plexus, first engineer to acquisition at OneTwo, co-founder of Drawboard, builder of CardLoft.">
+<meta property="og:title" content="Matt Barnes — Selected work">
+<meta property="og:description" content="Twenty years leading engineering across startups, scale-ups and enterprise. Four case studies, links to live products.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #fafaf8;
+    --ink: #16181d;
+    --slate: #5a6270;
+    --rule: #d8d9d4;
+    --amber: #b45309;
+    --amber-soft: #92400e;
+    --mono: "SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 18px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 72px 24px 96px;
+  }
+
+  /* Header */
+  header h1 {
+    font-family: "Archivo", sans-serif;
+    font-weight: 800;
+    font-size: clamp(2.2rem, 6vw, 3.1rem);
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+  }
+  .kicker {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 14px;
+  }
+  .contact {
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    color: var(--slate);
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+  }
+  .contact a { color: var(--slate); }
+  .contact a:hover, .contact a:focus-visible { color: var(--amber); }
+
+  .intro {
+    margin-top: 36px;
+    font-size: 1.06em;
+  }
+
+  /* Links */
+  a {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--amber);
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
+    transition: color 120ms ease;
+  }
+  a:hover, a:focus-visible { color: var(--amber-soft); }
+  a:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; border-radius: 1px; }
+  a.product::after { content: "\2197"; font-family: var(--mono); font-size: 0.8em; margin-left: 2px; color: var(--amber); }
+
+  /* Case studies */
+  section { margin-top: 72px; }
+  .spec {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    color: var(--slate);
+    margin-bottom: 10px;
+  }
+  .heading-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 10px;
+    margin-bottom: 22px;
+  }
+  section h2 {
+    font-family: "Archivo", sans-serif;
+    font-weight: 800;
+    font-size: clamp(1.35rem, 3.4vw, 1.7rem);
+    letter-spacing: -0.015em;
+    line-height: 1.15;
+  }
+  .years {
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+    font-size: clamp(1rem, 2.6vw, 1.25rem);
+    color: var(--rule);
+    white-space: nowrap;
+    letter-spacing: 0.01em;
+    flex-shrink: 0;
+  }
+  section p { margin-bottom: 16px; }
+  section ul { list-style: none; margin-top: 4px; }
+  section li {
+    padding-left: 26px;
+    position: relative;
+    margin-bottom: 12px;
+  }
+  section li::before {
+    content: "\2013";
+    position: absolute;
+    left: 4px;
+    color: var(--amber);
+    font-family: var(--mono);
+  }
+  strong { font-weight: 600; }
+
+  /* Earlier list */
+  .earlier li { margin-bottom: 10px; }
+
+  footer {
+    margin-top: 88px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--slate);
+  }
+
+  @media print {
+    body { font-size: 12px; }
+    .page { padding: 0; max-width: none; }
+    a { text-decoration: none; color: var(--ink); }
+    a.product::after { content: ""; }
+    section { margin-top: 32px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <p class="kicker">Selected work</p>
+    <h1>Matt Barnes</h1>
+    <div class="contact">
+      <span>Melbourne, Australia</span>
+      <a href="mailto:mbarnes.aus@gmail.com">mbarnes.aus@gmail.com</a>
+      <a href="https://www.linkedin.com/in/matthewjamesbarnes/">linkedin.com/in/matthewjamesbarnes</a>
+    </div>
+    <p class="intro">I've spent twenty years leading engineering across startups, scale-ups and enterprise, most recently as CTO at Plexus. The work below covers the things clients usually want to know: whether I can change how an established company builds software, whether I can build a team and a company from nothing, and whether I still build things myself. Links go to the live products.</p>
+  </header>
+
+  <section>
+    <p class="spec">CTO &middot; Legal AI SaaS, Melbourne</p>
+    <div class="heading-row">
+      <h2>Plexus: rebuilding delivery around AI</h2>
+      <span class="years">2025&ndash;</span>
+    </div>
+    <p><a class="product" href="https://www.plexus.co">Plexus</a> is a legal AI platform used by in-house legal teams at large enterprises, running on a fleet of roughly 90 microservices. My brief as CTO has had two halves: change how the company builds software, and build the agent platform underneath its AI products.</p>
+    <ul>
+      <li>Put AI into the delivery process itself, not just coding assistants handed out at the edges. Engineering velocity doubled as a result, measured before and after.</li>
+      <li>Designed and built the agent platform on GCP with a team of two: a managed agent fleet, versioning with immutable workflow snapshots, multi-tenancy, and a simulation mode so agent behaviour can be tested before it gets anywhere near a customer. The simulation requirement was there from day one, which shaped everything else.</li>
+      <li>Own security for the business. Led a major security uplift; the company is ISO 27001 certified.</li>
+    </ul>
+  </section>
+
+  <section>
+    <p class="spec">CTO 2020&ndash;2025 &middot; interim CPTO from 2025 &middot; acquired by ANZ in 2023</p>
+    <div class="heading-row">
+      <h2>OneTwo: first engineer to acquisition</h2>
+      <span class="years">2020&ndash;25</span>
+    </div>
+    <p><a class="product" href="https://www.onetwo.com.au">OneTwo</a> is a Melbourne fintech that set out to rebuild the home loan from scratch. I joined before the first engineering hire and grew the team to 80 people across seven squads. ANZ acquired the company in 2023, and I stayed on to take it through the transition into a regulated banking environment.</p>
+    <ul>
+      <li>Built the whole engineering function: hiring, team structure, platform, and the delivery culture. All of it had to hold up under bank-grade scrutiny after the acquisition, and it did.</li>
+      <li>Took on product as well as engineering in 2025 as interim Chief Product &amp; Technology Officer.</li>
+    </ul>
+  </section>
+
+  <section>
+    <p class="spec">Co-founder &amp; CTO</p>
+    <div class="heading-row">
+      <h2>Drawboard: co-founder, Startmate to Microsoft</h2>
+      <span class="years">2013&ndash;18</span>
+    </div>
+    <p>I co-founded <a class="product" href="https://www.drawboard.com">Drawboard</a>, best known for Drawboard PDF, a pen-first PDF markup app for architects, engineers and construction professionals. We took it through <a href="https://www.startmate.com/accelerator/program">Startmate</a>, spent time in San Francisco as part of the program, raised venture capital, and grew it into the number one productivity app on the Microsoft Store.</p>
+    <ul>
+      <li>Closed a commercial deal with Microsoft and worked directly with the Surface team. Drawboard PDF shipped on early Surface devices and was featured on stage at Microsoft's Surface Studio launch in 2016, building support for the Surface Pen and Surface Dial.</li>
+      <li>As CTO I built the product and the engineering team behind it, from accelerator prototype to a business serving customers worldwide. The company is still going today.</li>
+    </ul>
+  </section>
+
+  <section>
+    <p class="spec">Founder</p>
+    <div class="heading-row">
+      <h2>CardLoft: shipping solo with an agent toolchain</h2>
+      <span class="years">2026&ndash;</span>
+    </div>
+    <p><a class="product" href="https://cardloft.app">CardLoft</a> is a live product I design, build and run on my own: a web app for AFL and NRL trading card collectors, with collection tracking, AI card identification and valuation, and marketplace integration. I include it because it shows the delivery model taken to its logical end. One person, a set of agents, production software.</p>
+    <ul>
+      <li>Next.js PWA on Firebase and GCP. The photo intake identifies and values every card on a binder page from a single shot.</li>
+      <li>The eBay integration has two front doors on a shared core: a REST surface for the app and an MCP surface for AI agents, with an edge-hosted OAuth broker handling authorisation.</li>
+      <li>Content is produced by a pipeline of agents handling discovery, research, writing and review, with me signing off before anything publishes.</li>
+    </ul>
+  </section>
+
+  <section>
+    <p class="spec">Selected</p>
+    <div class="heading-row">
+      <h2>Earlier</h2>
+    </div>
+    <ul class="earlier">
+      <li><a class="product" href="https://stashpad.ai">StashPad</a>, a Chrome extension that captures your browsing history and lets you query it with AI. Another solo build, launched with subscriptions from day one.</li>
+      <li>Senior engineering roles at Sytel in Oxford and QinetiQ in the UK before moving to Australia.</li>
+      <li>Scaled iflix, a Southeast Asian streaming service, to 3.2 million users.</li>
+      <li>Built simulation systems for a Formula 1 team.</li>
+      <li>Published research on AI and virtual reality in ACM Multimedia, IEEE SMC and Computers &amp; Graphics.</li>
+      <li>Mentor with Startmate, Plato and Holberton School.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <span>Matt Barnes &middot; Melbourne &middot; <a href="mailto:mbarnes.aus@gmail.com">get in touch</a></span>
+  </footer>
+
+</div>
+</body>
+</html>
